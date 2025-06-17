@@ -110,7 +110,16 @@ export default function VolunteerSection() {
                 </div>
                 <h4 className="text-xl font-semibold text-fortis-brown mb-3">{opportunity.title}</h4>
                 <p className="text-gray-600 mb-4">{opportunity.description}</p>
-                <Button variant="ghost" className="text-fortis-orange hover:text-fortis-orange/80 p-0">
+                <Button 
+                  variant="ghost" 
+                  onClick={() => {
+                    const element = document.querySelector('.volunteer-form');
+                    if (element) {
+                      element.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                  className="text-fortis-orange hover:text-fortis-orange/80 p-0"
+                >
                   Apply Now
                 </Button>
               </div>
@@ -119,7 +128,7 @@ export default function VolunteerSection() {
         </div>
 
         {/* Volunteer Application Form */}
-        <div className="max-w-2xl mx-auto bg-gray-50 rounded-xl p-8">
+        <div className="volunteer-form max-w-2xl mx-auto bg-gray-50 rounded-xl p-8">
           <h4 className="text-2xl font-semibold text-fortis-brown mb-6 text-center">Volunteer Application</h4>
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid md:grid-cols-2 gap-6">
