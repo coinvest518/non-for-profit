@@ -22,6 +22,7 @@ export default function ContactSection() {
   });
 
   const contactMutation = useMutation({
+    // Update the API endpoint for Vercel serverless function
     mutationFn: async (data: InsertContactSubmission) => {
       const response = await apiRequest("POST", "/api/contact", data);
       return response.json();

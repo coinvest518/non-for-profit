@@ -7,6 +7,7 @@ import {
   insertNewsletterSignupSchema, 
   insertContactSubmissionSchema 
 } from "@shared/schema";
+import { sendContactEmail } from "./email";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Volunteer application endpoint
@@ -56,6 +57,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const contactData = insertContactSubmissionSchema.parse(req.body);
       const submission = await storage.createContactSubmission(contactData);
+      // Send email notification
+      await sendContactEmail(contactData);
       res.json({ message: "Contact form submitted successfully", submission });
     } catch (error) {
       if (error instanceof z.ZodError) {
