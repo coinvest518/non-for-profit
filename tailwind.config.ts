@@ -4,9 +4,7 @@ export default {
   darkMode: ["class"],
   content: [
     "./client/index.html",
-    "./client/src/**/*.{js,jsx,ts,tsx}",
-    "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./client/src/**/*.{html,js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
@@ -98,4 +96,13 @@ export default {
     },
   },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
+  safelist: [
+    'bg-primary',
+    'text-secondary',
+    'border-muted',
+    'ring-accent',
+    'hover:bg-destructive',
+    'dark:bg-background',
+    'dark:text-foreground',
+  ],
 } satisfies Config;
