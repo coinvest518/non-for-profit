@@ -20,8 +20,8 @@ export default function Header() {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-fortis-beige rounded-full flex items-center justify-center">
-              <img src={logoSvg} alt="Fortis Proles Inc Logo" className="w-8 h-8" />
+            <div className="w-16 h-16 flex items-center justify-center">
+              <img src={logoSvg} alt="Fortis Proles Inc Logo" className="w-16 h-16" />
             </div>
             <div>
               <h1 className="text-xl font-bold text-fortis-brown">Fortis Proles Inc</h1>
@@ -67,7 +67,10 @@ export default function Header() {
             >
               Contact
             </button>
-            <Button className="bg-fortis-orange text-white hover:bg-fortis-orange/90">
+            <Button 
+              onClick={() => window.open('https://www.paypal.com/donate', '_blank')}
+              className="bg-fortis-orange text-white hover:bg-fortis-orange/90"
+            >
               Donate Now
             </Button>
           </nav>
@@ -121,7 +124,10 @@ export default function Header() {
               >
                 Contact
               </button>
-              <Button className="bg-fortis-orange text-white hover:bg-fortis-orange/90 w-full">
+              <Button 
+                onClick={() => window.open('https://www.paypal.com/donate', '_blank')}
+                className="bg-fortis-orange text-white hover:bg-fortis-orange/90 w-full"
+              >
                 Donate Now
               </Button>
             </div>

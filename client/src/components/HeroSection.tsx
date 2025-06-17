@@ -32,6 +32,7 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg"
+              onClick={() => scrollToSection('volunteer')}
               className="bg-fortis-orange text-white hover:bg-fortis-orange/90 px-8 py-4 text-lg font-semibold"
             >
               Start Your Impact Today

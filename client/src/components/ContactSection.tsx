@@ -186,10 +186,12 @@ export default function ContactSection() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="general-information">General Information</SelectItem>
-                    <SelectItem value="volunteer-opportunities">Volunteer Opportunities</SelectItem>
                     <SelectItem value="program-enrollment">Program Enrollment</SelectItem>
+                    <SelectItem value="volunteer-opportunities">Volunteer Opportunities</SelectItem>
+                    <SelectItem value="doula-training">Doula Training Program</SelectItem>
+                    <SelectItem value="financial-literacy">FOREX & Financial Literacy</SelectItem>
+                    <SelectItem value="partnership">Partnership Opportunities</SelectItem>
                     <SelectItem value="donation-inquiry">Donation Inquiry</SelectItem>
-                    <SelectItem value="partnership">Partnership</SelectItem>
                     <SelectItem value="other">Other</SelectItem>
                   </SelectContent>
                 </Select>

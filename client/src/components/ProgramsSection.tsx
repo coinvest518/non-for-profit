@@ -6,7 +6,8 @@ import {
   GraduationCap, 
   Heart, 
   Shield, 
-  UserPlus 
+  UserPlus,
+  Baby 
 } from "lucide-react";
 
 const programs = [
@@ -48,7 +49,7 @@ const programs = [
   {
     title: "BEBÉ GABA Partnership",
     description: "Mission-aligned baby food brand offering nutritious, WIC-approved foods for culturally diverse families, with profits funding prenatal and infant health programming.",
-    icon: Shield,
+    icon: Baby,
     color: "bg-fortis-peru",
     image: "https://images.unsplash.com/photo-1516627145497-ae3bf4825cfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
   }
@@ -81,7 +82,16 @@ export default function ProgramsSection() {
                   </div>
                   <h4 className="text-xl font-semibold text-fortis-brown mb-3">{program.title}</h4>
                   <p className="text-gray-600 mb-4">{program.description}</p>
-                  <Button variant="ghost" className="text-fortis-orange hover:text-fortis-orange/80 p-0">
+                  <Button 
+                    variant="ghost" 
+                    onClick={() => {
+                      const element = document.getElementById('contact');
+                      if (element) {
+                        element.scrollIntoView({ behavior: 'smooth' });
+                      }
+                    }}
+                    className="text-fortis-orange hover:text-fortis-orange/80 p-0"
+                  >
                     Learn More →
                   </Button>
                 </CardContent>
