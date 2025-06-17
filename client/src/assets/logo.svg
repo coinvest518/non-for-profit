@@ -1,0 +1,26 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="40" height="40" rx="20" fill="#F5F5DC"/>
+  <g transform="translate(8, 8)">
+    <!-- Family silhouettes in heart shape -->
+    <path d="M12 2C10 2 8 3.5 8 6C8 8.5 10 11 12 14C14 11 16 8.5 16 6C16 3.5 14 2 12 2Z" fill="#8B4513" opacity="0.3"/>
+    
+    <!-- Adult figure 1 -->
+    <ellipse cx="8" cy="6" rx="1.5" ry="2" fill="#8B4513"/>
+    <rect x="7" y="8" width="2" height="4" rx="1" fill="#8B4513"/>
+    
+    <!-- Adult figure 2 -->
+    <ellipse cx="16" cy="6" rx="1.5" ry="2" fill="#CD853F"/>
+    <rect x="15" y="8" width="2" height="4" rx="1" fill="#CD853F"/>
+    
+    <!-- Child figure 1 -->
+    <ellipse cx="10" cy="8" rx="1" ry="1.5" fill="#DEB887"/>
+    <rect x="9.5" y="9.5" width="1" height="2.5" rx="0.5" fill="#DEB887"/>
+    
+    <!-- Child figure 2 -->
+    <ellipse cx="14" cy="8" rx="1" ry="1.5" fill="#F4A460"/>
+    <rect x="13.5" y="9.5" width="1" height="2.5" rx="0.5" fill="#F4A460"/>
+    
+    <!-- Heart outline -->
+    <path d="M12 2C10 2 8 3.5 8 6C8 8.5 10 11 12 14C14 11 16 8.5 16 6C16 3.5 14 2 12 2Z" stroke="#8B4513" stroke-width="1" fill="none"/>
+  </g>
+</svg>
