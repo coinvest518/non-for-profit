@@ -2,7 +2,12 @@ import type { Config } from "tailwindcss";
 
 export default {
   darkMode: ["class"],
-  content: ["./client/index.html", "./client/src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./client/index.html",
+    "./client/src/**/*.{js,jsx,ts,tsx}",
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     extend: {
       borderRadius: {
@@ -61,6 +66,12 @@ export default {
           border: "var(--sidebar-border)",
           ring: "var(--sidebar-ring)",
         },
+        // Add Fortis custom colors
+        "fortis-brown": "var(--fortis-brown)",
+        "fortis-peru": "var(--fortis-peru)",
+        "fortis-orange": "var(--fortis-orange)",
+        "fortis-beige": "var(--fortis-beige)",
+        "fortis-dark": "var(--fortis-dark)",
       },
       keyframes: {
         "accordion-down": {
