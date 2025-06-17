@@ -51,7 +51,7 @@ const programs = [
     description: "Mission-aligned baby food brand offering nutritious, WIC-approved foods for culturally diverse families, with profits funding prenatal and infant health programming.",
     icon: Baby,
     color: "bg-fortis-peru",
-    image: "https://images.unsplash.com/photo-1516627145497-ae3bf4825cfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
+    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400"
   }
 ];
 

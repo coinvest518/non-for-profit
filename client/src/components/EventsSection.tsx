@@ -4,31 +4,31 @@ import { Calendar, MapPin } from "lucide-react";
 
 const events = [
   {
-    title: "Annual Family Fun Day & Fundraiser",
-    date: "March 15, 2024",
-    location: "Albany Community Center",
-    description: "Join us for a day of family activities, local vendors, and community celebration while supporting our programs.",
-    image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=300"
+    title: "FOREX Education Workshop for Teens",
+    date: "January 25, 2025",
+    location: "Fortis Proles Inc Office - Albany, NY",
+    description: "Weekly financial literacy class introducing teens to FOREX trading, budgeting, and entrepreneurship fundamentals.",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=300"
   },
   {
-    title: "Parenting Workshop Series",
-    date: "March 22, 2024",
-    location: "Fortis Proles Inc Office",
-    description: "Interactive workshops covering positive parenting techniques, child development, and family communication.",
+    title: "Doula Training Certification Program",
+    date: "February 8, 2025",
+    location: "Partnership with WAKPS LLC",
+    description: "Full-spectrum doula care training for teens and young adults, connecting participants with local birthing centers.",
+    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=300"
+  },
+  {
+    title: "Family Wellness & Parenting Workshop",
+    date: "February 22, 2025",
+    location: "Community Center - Albany, NY",
+    description: "Interactive workshops for families covering nutrition, mental health services, and navigating systemic challenges.",
     image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=300"
   },
   {
-    title: "Community Service Day",
-    date: "April 5, 2024",
-    location: "Lincoln Park",
-    description: "Volunteers and families come together to beautify local parks and support neighborhood improvement projects.",
-    image: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=300"
-  },
-  {
-    title: "Youth Leadership Summit",
-    date: "April 12, 2024",
+    title: "Youth Communication & Leadership Summit",
+    date: "March 15, 2025",
     location: "Albany High School",
-    description: "A full-day event focused on developing leadership skills, goal-setting, and career exploration for teens.",
+    description: "Public speaking, digital storytelling, and media advocacy training with certification opportunities for peer mentoring.",
     image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=300"
   }
 ];
@@ -64,7 +64,16 @@ export default function EventsSection() {
                     <MapPin size={14} className="mr-1" />
                     {event.location}
                   </span>
-                  <Button variant="ghost" className="text-fortis-orange hover:text-fortis-orange/80 p-0">
+                  <Button 
+                    variant="ghost" 
+                    onClick={() => {
+                      const element = document.getElementById('contact');
+                      if (element) {
+                        element.scrollIntoView({ behavior: 'smooth' });
+                      }
+                    }}
+                    className="text-fortis-orange hover:text-fortis-orange/80 p-0"
+                  >
                     Register Now
                   </Button>
                 </div>
