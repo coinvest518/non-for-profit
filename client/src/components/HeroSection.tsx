@@ -23,11 +23,11 @@ export default function HeroSection() {
       <div className="relative container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-5xl md:text-6xl font-bold mb-6">
-            Empowering Families,<br />
-            <span className="text-fortis-orange">Building Strong Communities</span>
+            Nurturing Youth from<br />
+            <span className="text-fortis-orange">Womb to Adulthood</span>
           </h2>
           <p className="text-xl md:text-2xl mb-8 opacity-90">
-            Fortis Proles Inc is dedicated to strengthening families and empowering children to reach their full potential through comprehensive support programs and community initiatives.
+            FORTIS PROLES INC., meaning "Strong Offspring," transforms generational cycles of poverty into strength and sustainability through youth empowerment, family support, and life skills training.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

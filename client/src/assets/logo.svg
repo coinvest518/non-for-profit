@@ -1,26 +1,36 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="40" height="40" rx="20" fill="#F5F5DC"/>
-  <g transform="translate(8, 8)">
-    <!-- Family silhouettes in heart shape -->
-    <path d="M12 2C10 2 8 3.5 8 6C8 8.5 10 11 12 14C14 11 16 8.5 16 6C16 3.5 14 2 12 2Z" fill="#8B4513" opacity="0.3"/>
-    
-    <!-- Adult figure 1 -->
-    <ellipse cx="8" cy="6" rx="1.5" ry="2" fill="#8B4513"/>
-    <rect x="7" y="8" width="2" height="4" rx="1" fill="#8B4513"/>
-    
-    <!-- Adult figure 2 -->
-    <ellipse cx="16" cy="6" rx="1.5" ry="2" fill="#CD853F"/>
-    <rect x="15" y="8" width="2" height="4" rx="1" fill="#CD853F"/>
-    
-    <!-- Child figure 1 -->
-    <ellipse cx="10" cy="8" rx="1" ry="1.5" fill="#DEB887"/>
-    <rect x="9.5" y="9.5" width="1" height="2.5" rx="0.5" fill="#DEB887"/>
-    
-    <!-- Child figure 2 -->
-    <ellipse cx="14" cy="8" rx="1" ry="1.5" fill="#F4A460"/>
-    <rect x="13.5" y="9.5" width="1" height="2.5" rx="0.5" fill="#F4A460"/>
-    
-    <!-- Heart outline -->
-    <path d="M12 2C10 2 8 3.5 8 6C8 8.5 10 11 12 14C14 11 16 8.5 16 6C16 3.5 14 2 12 2Z" stroke="#8B4513" stroke-width="1" fill="none"/>
-  </g>
+<svg width="120" height="120" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="120" cy="120" r="120" fill="#F5F5DC"/>
+  
+  <!-- Protective hands forming heart shape -->
+  <path d="M120 60C110 60 100 65 100 75C100 85 110 100 120 120C130 100 140 85 140 75C140 65 130 60 120 60Z" fill="#B8860B" opacity="0.2"/>
+  
+  <!-- Family silhouettes in gradient colors -->
+  <!-- Smallest child (left) -->
+  <ellipse cx="90" cy="90" rx="8" ry="12" fill="#8B4513"/>
+  <rect x="82" y="102" width="16" height="24" rx="8" fill="#8B4513"/>
+  
+  <!-- Second child -->
+  <ellipse cx="110" cy="85" rx="10" ry="15" fill="#CD853F"/>
+  <rect x="100" y="100" width="20" height="30" rx="10" fill="#CD853F"/>
+  
+  <!-- Third child/teen -->
+  <ellipse cx="130" cy="85" rx="10" ry="15" fill="#DEB887"/>
+  <rect x="120" y="100" width="20" height="30" rx="10" fill="#DEB887"/>
+  
+  <!-- Adult figure (right) -->
+  <ellipse cx="150" cy="90" rx="12" ry="18" fill="#A0522D"/>
+  <rect x="138" y="108" width="24" height="36" rx="12" fill="#A0522D"/>
+  
+  <!-- Protective hands/heart outline -->
+  <path d="M120 60C110 60 100 65 100 75C100 85 110 100 120 120C130 100 140 85 140 75C140 65 130 60 120 60Z" stroke="#8B4513" stroke-width="3" fill="none"/>
+  
+  <!-- Text - FORTIS -->
+  <text x="120" y="170" font-family="serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#8B4513">FORTIS</text>
+  
+  <!-- Text - PROLES INC -->
+  <text x="120" y="195" font-family="serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B4513">PROLES INC</text>
+  
+  <!-- Tagline - Strong Offspring -->
+  <text x="120" y="215" font-family="serif" font-size="12" text-anchor="middle" fill="#CD853F">Strong Offspring</text>
 </svg>

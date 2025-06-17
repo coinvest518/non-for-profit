@@ -18,7 +18,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
-              Empowering families and strengthening communities through comprehensive support programs, education, and advocacy for children and families in need.
+              Nurturing and empowering youth from the womb through adulthood by supporting families, equipping youth with life skills, and providing economic, emotional, and educational tools to transform generational cycles.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-fortis-brown rounded-lg flex items-center justify-center hover:bg-fortis-orange transition-colors">
@@ -76,7 +76,7 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 Fortis Proles Inc. All rights reserved. | Tax ID: [EIN Number]
+              © 2024 Fortis Proles Inc. All rights reserved. | DOS ID: <a href="https://apps.dos.ny.gov/publicInquiry/EntityDisplay" target="_blank" rel="noopener noreferrer" className="text-fortis-orange hover:text-fortis-orange/80">7433656</a>
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-fortis-orange text-sm transition-colors">Privacy Policy</a>

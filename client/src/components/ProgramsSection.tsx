@@ -11,46 +11,46 @@ import {
 
 const programs = [
   {
-    title: "Youth Empowerment",
-    description: "Building confidence, leadership skills, and resilience in young people through mentorship, educational support, and life skills training.",
-    icon: UserPlus,
+    title: "FOREX Education & Financial Literacy",
+    description: "Weekly classes for teens (ages 14+) on trading, budgeting, investing, and entrepreneurship with simulated trading environments and financial mentorships.",
+    icon: GraduationCap,
     color: "bg-fortis-orange",
-    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
   },
   {
-    title: "Family Support Services",
-    description: "Comprehensive support for families including counseling, resource navigation, parenting education, and crisis intervention services.",
+    title: "Doula Certification Program",
+    description: "Training teens and young adults in full-spectrum doula care through partnerships with We Are Knowledge Power Strength LLC and local birthing centers.",
+    icon: Heart,
+    color: "bg-fortis-brown",
+    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
+  },
+  {
+    title: "Communication & Public Speaking",
+    description: "Youth-led workshops in public speaking, digital storytelling, and media advocacy with certification tracks for peer mentoring and career opportunities.",
+    icon: UserPlus,
+    color: "bg-fortis-peru",
+    image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
+  },
+  {
+    title: "Self-Sufficiency & Life Skills",
+    description: "Comprehensive courses in cooking, hygiene, parenting for teen parents, conflict resolution, career preparation, and resume building.",
+    icon: Users,
+    color: "bg-fortis-orange",
+    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
+  },
+  {
+    title: "Family Engagement & Education",
+    description: "Parenting classes, counseling and coaching for navigating systemic challenges, and family wellness programs including nutrition and mental health services.",
     icon: Home,
     color: "bg-fortis-brown",
     image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
   },
   {
-    title: "Community Building",
-    description: "Strengthening neighborhood connections through community events, volunteer opportunities, and collaborative initiatives.",
-    icon: Users,
-    color: "bg-fortis-peru",
-    image: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
-  },
-  {
-    title: "Educational Support",
-    description: "Tutoring, homework assistance, college preparation, and scholarship programs to ensure academic success for all children.",
-    icon: GraduationCap,
-    color: "bg-fortis-orange",
-    image: "https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
-  },
-  {
-    title: "Mental Health Support",
-    description: "Professional counseling, support groups, and wellness programs to promote emotional health and resilience.",
-    icon: Heart,
-    color: "bg-fortis-brown",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
-  },
-  {
-    title: "Crisis Intervention",
-    description: "24/7 emergency support, safety planning, and immediate assistance for families facing urgent challenges.",
+    title: "BEBÉ GABA Partnership",
+    description: "Mission-aligned baby food brand offering nutritious, WIC-approved foods for culturally diverse families, with profits funding prenatal and infant health programming.",
     icon: Shield,
     color: "bg-fortis-peru",
-    image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
+    image: "https://images.unsplash.com/photo-1516627145497-ae3bf4825cfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
   }
 ];
 

@@ -13,21 +13,21 @@ import type { InsertVolunteer } from "@shared/schema";
 
 const volunteerOpportunities = [
   {
-    title: "Mentor & Tutor",
-    description: "Guide young minds and help children reach their academic potential through one-on-one mentoring and tutoring.",
+    title: "Youth Financial Literacy Mentor",
+    description: "Help teach teens FOREX education, budgeting, investing, and entrepreneurship skills through our financial literacy programs.",
     icon: Presentation,
     color: "bg-fortis-orange"
   },
   {
-    title: "Event Coordinator",
-    description: "Help organize community events, fundraisers, and family activities that bring our community together.",
-    icon: Calendar,
+    title: "Doula Training Assistant",
+    description: "Support our doula certification program by assisting with training sessions and connecting youth with birthing center partnerships.",
+    icon: HandHelping,
     color: "bg-fortis-brown"
   },
   {
-    title: "Family Support",
-    description: "Provide direct assistance to families in need through our crisis intervention and family support programs.",
-    icon: HandHelping,
+    title: "Life Skills Instructor",
+    description: "Teach essential life skills including cooking, parenting, conflict resolution, and career preparation to youth and families.",
+    icon: Calendar,
     color: "bg-fortis-peru"
   }
 ];
@@ -172,11 +172,12 @@ export default function VolunteerSection() {
                   <SelectValue placeholder="Select your preferred volunteer area" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="youth-mentoring">Youth Mentoring</SelectItem>
-                  <SelectItem value="educational-support">Educational Support</SelectItem>
-                  <SelectItem value="event-planning">Event Planning</SelectItem>
-                  <SelectItem value="family-support">Family Support</SelectItem>
-                  <SelectItem value="administrative">Administrative</SelectItem>
+                  <SelectItem value="financial-literacy">FOREX & Financial Literacy</SelectItem>
+                  <SelectItem value="doula-training">Doula Training Program</SelectItem>
+                  <SelectItem value="communication-skills">Communication & Public Speaking</SelectItem>
+                  <SelectItem value="life-skills">Self-Sufficiency & Life Skills</SelectItem>
+                  <SelectItem value="family-engagement">Family Engagement & Education</SelectItem>
+                  <SelectItem value="administrative">Administrative Support</SelectItem>
                 </SelectContent>
               </Select>
             </div>

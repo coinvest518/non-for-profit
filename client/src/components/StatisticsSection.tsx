@@ -1,9 +1,9 @@
 export default function StatisticsSection() {
   const stats = [
-    { number: "500+", label: "Families Served" },
-    { number: "1,200+", label: "Children Empowered" },
-    { number: "150+", label: "Active Volunteers" },
-    { number: "25+", label: "Community Partners" }
+    { number: "500+", label: "Youth Trained Annually" },
+    { number: "3", label: "States Served" },
+    { number: "5", label: "Training Programs" },
+    { number: "10+", label: "Community Partners" }
   ];
 
   return (
