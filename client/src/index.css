@@ -57,7 +57,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    border-color: theme('colors.border');
   }
 
   body {
@@ -148,5 +148,13 @@
   
   .hover\:text-fortis-orange:hover {
     color: hsl(15, 86%, 59%);
+  }
+  
+  .bg-background {
+    background-color: theme('colors.background');
+  }
+  
+  .text-foreground {
+    color: theme('colors.foreground');
   }
 }
